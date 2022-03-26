@@ -20,6 +20,9 @@ h3 {
 p {
 	font-size: 15px;
 }
+p.small {
+	font-size: 10px;
+}
 span {
 	color: #794EFF;
 }
@@ -46,7 +49,23 @@ span {
 .mt-2 {
 	margin-top: 20px;
 }
+
+.ml-1 {
+	margin-left: 20px;
+}
 /* /margins */
+
+/* some special features */
+p.yellow {
+	background: #FFC14799;
+	border: 2px solid #FFC147
+	color: black;
+	text-align: center;
+}
+.yellow-text {
+	color: #FFC14799;
+}
+/* /some special features */
 
 /* Navigation Bar */
 
@@ -112,3 +131,22 @@ span {
 }
 
 /* /Main Menu */
+
+/* submenu */
+.submenu {
+	background: #1E313B;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:  white;
+}
+.submenu-img {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.submenu-img img {
+	padding: 20px;
+	height: 70px;
+}
+/* /submenu */
