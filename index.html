@@ -10,6 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 	<!--navigation menu-->
@@ -60,17 +61,181 @@
 	</div>
 	<!-- /submenu -->
 	<!-- Features -->
-	<div class="features">
+	<div class="features mt-4" data-aos="fade-up" data-aos-duration="2000">
 		<div class="features-mockup">
 			<img src="./images/features.png">
 		</div>
 		<div class="features-text">
-			
-			<h3>See how easy it is to <span class="yellow">edit Molecule</span> to your liking.</h3>
+			<div class="top">
+				<i class="yellow yellow-top-text">Features</i>
+			</div>
+			<h3 class="mt-2">See how easy it is to <span class="yellow-text">edit Molecule</span> to<br> your liking.</h3>
+			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</p>
+			<div class="features-grid mt-2">
+				<div class="grid-item">
+					<div class="top">
+						<img src="./images/gridbox.png">
+						<h6 class="yellow-text">Pages you'll use</h6>
+					</div>
+					<p class="mt-3">Molecule doesn't come with 200+ page layout — it comes with the pages yo'll actually use.</p>
+				</div>
+
+				<div class="grid-item">
+					<div class="top">
+						<img src="./images/image.png">
+						<h6 class="yellow-text">Native image effects</h6>
+					</div>
+					<p class="mt-3">Instead of having to add effects to images in an image editor, simply replace the existing images and all effects will appear.</p>
+				</div>
+
+				<div class="grid-item">
+					<div class="top">
+						<img src="./images/hamburger.png">
+						<h6 class="yellow-text">Global typography</h6>
+					</div>
+					<p class="mt-3">Change the body font once and every single line of text on the page will change.</p>
+				</div>
+
+				<div class="grid-item">
+					<div class="top">
+						<img src="./images/colors.png">
+						<h6 class="yellow-text">Global colors</h6>
+					</div>
+					<p class="mt-3">Change the global color swatches and see your colors change everywhere.</p>
+				</div>
+			</div>
 		</div>
 	</div>
-	<p class="yellow">Features</p>
 	<!-- /Features -->
+
+	<!-- Stats -->
+	<div class="stats mt-4" data-aos="fade-up" data-aos-duration="2000">
+		<div class="stats-left">
+			<i class="green">Stats</i>
+			<h4 class="mt-2">Teams all over the place have already used Molecule to get <span class="green-text">stunning results</span></h3>
+		</div>
+		<div class="stats-right">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+			<div class="stats-countdown">
+				<div class="stats-countdown-item mt-1">
+					<h3 class="green-text">87%</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="stats-countdown-item mt-1">
+					<h3 class="green-text">99%</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Stats -->
+	<!-- Team -->
+	<div class="team mt-4" data-aos="fade-up" data-aos-duration="2000">
+		<div class="team-left">
+			<i class="purple">Team</i>
+			<h3 class="mt-2">Meet the talented team behind <br> the molecule SaaS template.</h3>
+			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+			<div class="mt-5">
+				<a href="#" class="filled-button-purple">Meet the team</a>
+			</div>
+		</div>
+		<div class="team-right">
+			<img src="./images/team-mockup.png">
+		</div>
+	</div>
+	<!-- /Team -->
+	<!-- buy-module -->
+	<div class="buy-module mt-4">
+		<img src="./images/logo.png">
+		<h3 class="mt-2">Think you've seen enough?</h3>
+		<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+		<div class="module-btn mt-5">
+			<a href="#" class="filled-button-purple">Buy molecule</a>
+			<a href="#" class="filled-button background-white ml-1">Read more</a>
+		</div>
+	</div>
+	<!-- /buy-module -->
+	<!-- process -->
+	<div class="process mt-4">
+		<div class="process-left">
+			<i class="yellow yellow-top-text">Process</i>
+			<h3 class="mt-5">What steps are required to build a SaaS marketing site using the molecule template?</h3>
+			<div class="mt-5">
+				<a href="#" class="filled-button">Get molecule</a>
+			</div>
+		</div>
+		<div class="process-right">
+			<div class="process-right-item">
+				<img src="./images/buy.png">
+				<div class="text">
+					<h5>Get molecule</h6>
+					<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+				</div>
+			</div>
+			<div class="process-right-item">
+				<img src="./images/color-filled.png">
+				<div class="text">
+					<h5>Edit fonts, colors, images & text</h6>
+					<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+				</div>
+			</div>
+			<div class="process-right-item">
+				<img src="./images/upload.png">
+				<div class="text">
+					<h5>Publih</h6>
+					<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /process -->
+	<!-- Slidebox -->
+	<div class="slidebox mt-4">
+		<div class="slide-item fade">
+			<img src="./images/slide-img.png">
+			<p class="mt-2">"Using molecule for our web was the best decision we made last <br> year — and we made a ton of great decisions, trust me!"</p>
+			<div class="avatar mt-2">
+				<img src="./images/avatar.png" class="avatar">
+				<p>Mark Watney</p>
+				<p class="small">Marketing Director, Chill Industries</p>
+			</div>
+		</div>
+		<div class="slide-item fade">
+			<img src="./images/slide-img.png">
+			<p class="mt-2">"Using molecule for our web was the best decision we made last <br> year — and we made a ton of great decisions, trust me!"</p>
+			<div class="avatar mt-2">
+				<img src="./images/avatar.png" class="avatar">
+				<p>Mark Watney</p>
+				<p class="small">Marketing Director, Chill Industries</p>
+			</div>
+		</div>
+		<div class="slide-item fade">
+			<img src="./images/slide-img.png">
+			<p class="mt-2">"Using molecule for our web was the best decision we made last <br> year — and we made a ton of great decisions, trust me!"</p>
+			<div class="avatar mt-2">
+				<img src="./images/avatar.png" class="avatar">
+				<p>Mark Watney</p>
+				<p class="small">Marketing Director, Chill Industries</p>
+			</div>
+		</div>
+
+  		<div style="text-align:center" class="mt-2">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+	<!-- /Slidebox -->
+	<!-- Subscription -->
+	<!-- /Subscription -->
 	<script type="text/javascript" src="./js/molecule.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	   AOS.init();
+	</script>
 </body>
 </html>

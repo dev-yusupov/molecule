@@ -14,8 +14,16 @@ a {
 }
 h3 {
 	font-weight: 600;
-	font-size: 27px;
+	font-size: 34px;
 	font-family: 'Roboto', sans-serif;
+}
+h4 {
+	font-size: 27px;
+	font-weight: 500;
+}
+h5 {
+	font-size: 20px;
+	font-weight: 500;
 }
 p {
 	font-size: 15px;
@@ -41,6 +49,25 @@ span {
 	color: #1E313B;
 	border: 2px solid #1E313B;
 }
+.filled-button-purple {
+	background: rgba(121, 78, 255, 1);
+	border-radius: 6px;
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	transition: .2s;
+	box-sizing: border-box;
+}
+.filled-button-purple:hover{
+	background: transparent;
+	border: 2px solid rgba(121, 78, 255, 1);
+	color: rgba(121, 78, 255, 1);
+}
+.background-white {
+	background: white!important;
+	color: rgba(30, 49, 59, 1)!important;
+;
+}
 
 /* margins */
 .mt-1 {
@@ -49,6 +76,15 @@ span {
 .mt-2 {
 	margin-top: 20px;
 }
+.mt-3 {
+	margin-top: 15px;
+}
+.mt-4 {
+	margin-top: 100px;
+}
+.mt-5 {
+	margin-top: 30px;
+}
 
 .ml-1 {
 	margin-left: 20px;
@@ -56,14 +92,38 @@ span {
 /* /margins */
 
 /* some special features */
-p.yellow {
+i.yellow {
 	background: #FFC14799;
-	border: 2px solid #FFC147
+	border: 2px solid #FFC147;
 	color: black;
 	text-align: center;
+	font-style: inherit;
+	padding: 3px 20px;
+	border-radius: 30px;
+}
+i.green {
+	background: rgba(151, 231, 71, 0.6);
+	border: 2px solid rgba(151, 231, 71, 1);
+	color: black;
+	text-align: center;
+	font-style: inherit;
+	padding: 3px 20px;
+	border-radius: 30px;
+}
+i.purple {
+	background: rgba(121, 78, 255, 0.8);
+	border: 2px solid rgba(121, 78, 255, 1);
+	color: white;
+	text-align: center;
+	font-style: inherit;
+	padding: 3px 20px;
+	border-radius: 30px;
 }
 .yellow-text {
-	color: #FFC14799;
+	color: #FFC147;
+}
+.green-text {
+	color: rgba(151, 231, 71, 1);
 }
 /* /some special features */
 
@@ -139,6 +199,7 @@ p.yellow {
 	flex-direction: column;
 	align-items: center;
 	color:  white;
+	padding: 30px;
 }
 .submenu-img {
 	display: flex;
@@ -150,3 +211,143 @@ p.yellow {
 	height: 70px;
 }
 /* /submenu */
+/* features */
+.features {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.features .features-mockup img{
+	width: 547px;
+}
+.features .features-text {
+	max-width: 547px;
+}
+.features-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 27px;
+}
+.features-grid .grid-item .top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.features-grid .grid-item .top h6 {
+	font-size: 22px;
+	margin-left: 10px;
+}
+.features-grid .grid-item .top img {
+	width: 30px;
+}
+/* /features */
+/* stats */
+.stats {
+	background: rgba(246, 246, 246, 1);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 100px 100px;
+	justify-content: space-around;
+}
+.stats .stats-left {
+	width: 500px;
+}
+.stats .stats-right{
+	width: 546px;
+}
+.stats .stats-countdown {
+	display: flex;
+	flex-direction: row;
+}
+.stats .stats-countdown .stats-countdown-item {
+	max-width: 260px;
+}
+/* /stats */
+.team {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.team .team-left {
+	width: 506px;
+}
+
+.buy-module {
+	background: rgba(30, 49, 59, 1);
+	text-align: center;
+	padding: 100px 100px;
+	color: white;
+}
+
+.process {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.process .process-left {
+	width: 546px;
+}
+.process-right-item {
+	display: flex;
+	flex-direction: row;
+	width: 456px;
+	margin-top: 50px;
+}
+.process-right-item .text {
+	margin-left: 30px;
+}
+.process .process-right img{
+	width: 50px;
+	height: 50px;
+}
+.slidebox {
+	background: rgba(246, 246, 246, 1);
+	text-align: center;
+	padding: 100px 100px;
+}
+.slide-item {
+	display: none;
+}
+.slide-item-active {
+	display: initial;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
