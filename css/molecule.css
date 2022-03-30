@@ -25,6 +25,10 @@ h5 {
 	font-size: 20px;
 	font-weight: 500;
 }
+h6 {
+	font-size: 25px;
+	font-weight: 600;
+}
 p {
 	font-size: 15px;
 }
@@ -66,7 +70,10 @@ span {
 .background-white {
 	background: white!important;
 	color: rgba(30, 49, 59, 1)!important;
-;
+}
+.background-blue {
+	background: rgba(30, 49, 59, 1)!important;
+	color: white!important;
 }
 
 /* margins */
@@ -153,7 +160,7 @@ i.purple {
 	color: #1E313B;
 	transition: .2s;
 }
-.navbar .nav-items li a:hover, .navbar .nav-items li a.active {
+.navbar .nav-items li a:hover, .navbar .nav-items li a.active-item {
 	color: #794EFF;
 }
 
@@ -173,14 +180,14 @@ i.purple {
 	color: white;
 	max-width: 567px;
 }
-.main-section-text form input{
+.main-section-text form input, .input-text{
 	padding: 10px 18px;
 	width: 320px;
 	border-radius: 6px;
-	border: none;
+	border: 1px solid rgba(0, 0, 0, 1);
 	outline: none;
 }
-.main-section-text form button {
+.main-section-text form button, .submit {
 	padding: 10px 20px;
 	border-radius: 6px;
 	border: none;
@@ -350,4 +357,101 @@ i.purple {
 @keyframes fade {
   from {opacity: .3}
   to {opacity: 1}
+}
+
+/* subscription */
+
+.subscription {
+	background: rgba(121, 78, 255, 1);
+	padding: 50px;
+}
+.subscription .subscription-center {
+	background: white;
+	border-radius: 48px;
+	padding: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.subscription-left {
+	width: 477px;
+}
+.subscription-right {
+	width: 435px;
+}
+
+/* /subscription */
+.blog {
+	padding: 30px;
+}
+.blog-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.blog-top div.blog-top-text {
+	display: flex;
+	flex-direction: column;
+}
+.blog-post {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.blog-post .post {
+	width: 360px;
+}
+.blog-post .post img.post {
+	width: 360px;
+}
+.blog-post .post .post-avatar {
+	display: flex;
+	flex-direction: row;
+}
+.avatar-img {
+	width: 37px;
+}
+.blog-post .post .post-avatar text {
+	display: flex;
+	flex-direction: column;
+}
+.get-molecule {
+	display: flex;
+	flex-direction: row;
+	background: rgba(121, 78, 255, 1);
+	padding: 70px;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Footer */
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer img {
+	width: 176px;
+}
+.footer-items {
+	display: flex;
+	flex-direction: row;
+}
+.footer-items li {
+	padding: 10px;
+	list-style-type: none;
+}
+.footer .footer-social-media i{
+	padding: 10px;
+}
+/* /Footer */
+
+.sub-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
