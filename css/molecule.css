@@ -466,9 +466,24 @@ i.purple {
 	.navbar .nav-items {
 		display: none;
 	}
+	.nav-items-active {
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		text-align: center;
+		background: white;
+		margin-top: 270px;
+		box-shadow: 0px 6px 5px 0px rgba(121, 121, 121, 0.623);
+	}
+	.nav-items-active li {
+		padding: 10px;
+
+	}
 	.hamburger {
 		display: initial;
 		margin-left: 20px;
+		cursor: pointer;
 	}
 	.main-section {
 		display: flex;
@@ -481,6 +496,7 @@ i.purple {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: center;
+		padding: 40px 30px;
 	}
 	.features .features-mockup {
 		margin-top: 30px;
@@ -511,5 +527,23 @@ i.purple {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+	.get-molecule {
+		display: flex;
+		flex-direction: column;
+	}
+	.get-molecule div:nth-child(1) {
+		text-align: center;
+	}
+	.get-molecule div:nth-child(2){
+		margin-top: 40px;
+	}
+	.footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.sub-footer {
+		display: flex;
+		flex-direction: column;
 	}
 }
