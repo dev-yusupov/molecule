@@ -520,6 +520,7 @@ i.purple {
 	.main-section {
 		display: flex;
 		flex-direction: column;
+		padding: 20px;
 	}
 	.main-section .main-section-mockup img {
 		width: 80%;
@@ -589,12 +590,19 @@ i.purple {
 	.process {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
+	}
+	.process .process-left {
+		padding: 20px;
 	}
 	.subscription .subscription-center{
 		display: flex;
 		flex-direction: column;
 		border-radius: 27px;
 		padding: 25px;
+	}
+	.subscription-left p{
+		width: 80%;
 	}
 	.subscription-right {
 		margin-top: 40px;
