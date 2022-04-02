@@ -522,9 +522,24 @@ i.purple {
 		flex-direction: column;
 		padding: 20px;
 	}
+	.main-section-text form input, .input-text{
+		padding: 3% 2%;
+		width: 50%;
+		border-radius: 3px;
+		font-size: 56%;
+	}
+	.main-section-text form button, .submit {
+		padding: 2% 2%;
+		border-radius: 3px;
+		border: none;
+		color: #1E313B;
+	}
 	.main-section .main-section-mockup img {
 		width: 80%;
 		margin-top: 10%;
+	}
+	.submenu {
+		display: none;
 	}
 	.submenu img {
 		width: 17%;
