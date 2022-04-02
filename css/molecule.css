@@ -595,6 +595,9 @@ i.purple {
 	.process .process-left {
 		padding: 20px;
 	}
+	.subscription {
+		padding: 6%;
+	}
 	.subscription .subscription-center{
 		display: flex;
 		flex-direction: column;
@@ -606,6 +609,14 @@ i.purple {
 	}
 	.subscription-right {
 		margin-top: 40px;
+	}
+	.input-text{
+		padding: 1% 2%;
+		width: 40%;
+	}
+	.submit {
+		padding: 1% 2%;
+		font-size: 90%;
 	}
 	.blog .blog-post {
 		display: flex;
