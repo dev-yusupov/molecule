@@ -593,35 +593,27 @@ i.purple {
 		width: 100%;
 	}
 	.process .process-left {
-		padding: 20px;
+		max-width: 80%;
+	}
+	.process .process-right {
+		padding: 30px;
+	}
+	.process-right-item {
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+		margin-top: 30px;
 	}
 	.subscription {
-		padding: 6%;
-	}
-	.subscription .subscription-center{
-		display: flex;
-		flex-direction: column;
-		border-radius: 27px;
-		padding: 25px;
-	}
-	.subscription-left p{
-		width: 80%;
-	}
-	.subscription-right {
-		margin-top: 40px;
-	}
-	.input-text{
-		padding: 1% 2%;
-		width: 40%;
-	}
-	.submit {
-		padding: 1% 2%;
-		font-size: 90%;
+			display: none;
 	}
 	.blog .blog-post {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+	.blog .blog-top-button {
+		display: none;
 	}
 	.get-molecule {
 		display: flex;
