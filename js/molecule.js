@@ -1,5 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const navItems = document.querySelector('.nav-items');
+const xmark = document.querySelector('.hamburger i.fa-xmark');
+const ham = document.querySelector('.hamburger i.fa-bars');
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -43,4 +45,6 @@ function toggleClass(element, className, existingClass) {
 
 hamburger.onclick = function () {
   toggleClass(navItems, 'nav-items-active', 'nav-items');
+  xmark.classList.toggle('div-active');
+  ham.classList.toggle('div-not-active');
 }
