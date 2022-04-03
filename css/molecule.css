@@ -713,6 +713,7 @@ i.purple {
 	.buy-module .ml-1 {
 		margin-left: 0px;
 	}
+
 	.process {
 		display: flex;
 		flex-direction: column;
@@ -874,6 +875,7 @@ i.purple {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 100%;
 	}
 	.process-right-item .text {
 		margin-left: 0px;
@@ -891,11 +893,17 @@ i.purple {
 	.subscription{
 		display: none;
 	}
+	.buy-module {
+    padding: 5% 5%;
+}
 	.blog-post {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	.blog-top-button {
+		display: none;
 	}
 	.blog-post .post {
 		width: 80%;
