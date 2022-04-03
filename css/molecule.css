@@ -732,10 +732,31 @@ i.purple {
 	.subscription {
 			display: none;
 	}
-	.blog .blog-post {
+	.blog-post {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
+	}
+	.blog-post .post {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.blog-post .post h6 {
+		font-size: 180%;
+	}
+	.blog-post .post p {
+		font-size: 120%;
+	}
+	.blog-post .post .post-avatar {
+		display: none;
+	}
+	.blog-post .post img.post{
+		width: 100%;
 	}
 	.blog .blog-top-button {
 		display: none;
