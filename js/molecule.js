@@ -48,6 +48,3 @@ hamburger.onclick = function () {
   xmark.classList.toggle('div-active');
   ham.classList.toggle('div-not-active');
 }
-classWidth = document.querySelector('.width');
-
-classWidth.innerHTML = screen.width
